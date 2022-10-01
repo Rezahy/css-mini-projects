@@ -1,0 +1,249 @@
+/*
+@font-face {
+    font-family: Vazir;
+    src: url("fonts/vazir/Vazir-Bold.woff2") format("woff2");
+    font-weight: bold;
+}
+
+
+.header{
+    !*background-color: yellow;*!
+    width: 50%;
+    height: 400px;
+    !*background-image: url("image.jpg");*!
+    !*background-size: cover;*!
+    !*background-position: 0px 30%;*!
+    !*background-repeat: no-repeat;*!
+
+    color: white;
+    border: 10px dotted red;
+    box-sizing: border-box;
+    font-family: Vazir;
+    !*background: linear-gradient( 135deg, #b37e7e 20% , #628181);*!
+    !*background-origin: border-box;*!
+    !*background: radial-gradient(circle at center ,red,black);*!
+    padding: 20px;
+    background: url("image.jpg") 0px 30%/cover no-repeat border-box fixed yellow;
+
+
+}
+.header:hover{
+    filter:drop-shadow(10px 10px 5px rgba(0,0,0,.5));
+    transform:scale(1.1);
+}
+h1{
+    font-size: 50px;
+    text-shadow: 10px 10px 10px red;
+}
+p{
+    text-align: justify;
+    line-height: 2;
+
+}
+*/
+/*
+
+div.box{
+    width: 500px;
+    height: 400px;
+    background-color: yellow;
+}
+div.box2{
+    width: 50vw;
+    height: 200px;
+    background-color: red;
+}
+
+
+*/
+
+/*===============================================================================*/
+/*
+p{
+    background-color: cadetblue;
+    color: white;
+    padding: 1.2rem 2rem;
+    text-align: center;
+    border-radius: 5px;
+
+}
+header,aside,footer,section{
+    margin: 0rem 1.5rem 2rem;
+
+}
+aside{
+    float: right;
+}
+section{
+    float: left;
+}
+.cleafix:before,.cleafix:after{
+    content: "";
+    display: table;
+}
+.cleafix:after{
+    clear: both;
+}
+
+*/
+/*
+header,footer,section,aside{
+    background-color: #3b5051;
+    text-align: center;
+
+    height: 100px;
+    color: white;
+    border-radius: 20px;
+    padding:10px 10px;
+    margin: 20px;
+}
+.clearfix:after,.clearfix:before{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+div.mainleft{
+    float: left;
+    background-color: #3b5051;
+    text-align: center;
+    height:400px;
+    color: white;
+    border-radius: 20px;
+    padding:10px 10px;
+    margin: 20px;
+    width: 60%;
+}
+div.mainright{
+    float: right;
+    background-color: #3b5051;
+    text-align: center;
+
+    height: 400px;
+    color: white;
+    border-radius: 20px;
+    padding:10px 10px;
+    margin: 20px;
+    width: 30%;
+}
+div.row{
+
+    width: calc(100% - 40px);
+    height: 150px;
+    margin: 30px 20px;
+}
+div.box{
+    background-color: #183541;
+    height: calc(100% - 40px);
+    width: calc(33% - 40px);
+    margin: 20px;
+    float: left;
+    border-radius: 20px;
+}
+div.box1{
+
+    background-color: #183541;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    margin: 20px;
+    float: left;
+    border-radius: 20px;
+
+}
+aside{
+    float: left;
+    width: 60%;
+    height:200px;
+}
+section{
+    float: right;
+    width:30%;
+    height: 200px;
+}
+*/
+.container{
+    /*text-align: center;*/
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.form{
+    margin-top: 2rem;
+
+}
+.form label,.form input:not([type="checkbox"]){
+    display: block;
+    margin-bottom: .7rem;
+}
+.title{
+    font-weight: bold;
+    color: #1c1f2d;
+    font-size: 1.5rem;
+}
+label{
+    font-weight: bold;
+}
+input.form-control{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    border: 1px solid rgba(0,0,0,.3);
+
+}
+fieldset{
+    padding-right: 1.7rem;
+}
+input.form-control::placeholder{
+    color: rgba(0,0,0,.6);
+
+}
+.checkbox{
+    position: relative;
+}
+.checkbox input{
+    display: none;
+}
+.checkbox .checkmark{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #eee;
+    left: 0px;
+    top: 0px;
+    border-radius: 4px;
+}
+label.checkbox{
+    padding-left: 2rem;
+    padding-top: .2rem;
+}
+.checkbox input:checked ~.checkmark{
+    background-color: #2196f3;
+}
+.checkmark::after{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height:10px;
+    border: solid white;
+    top: 4px;
+    left: 9px;
+    display: none;
+    border-width: 0px 3px 3px 0px;
+    transform: rotate(45deg);
+}
+.checkbox input:checked ~ .checkmark:after{
+    background-color: #2196f3;
+    display: block;
+}
+.form-control:focus{
+    background-color: rgba(144,144,144,0.1);
+}
+button{
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+
+

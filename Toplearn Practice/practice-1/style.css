@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'niconne';
+    src: url("fonts/nicone/Niconne-Regular.woff") format('woff');
+}
+body{
+    background: #D52E3F;
+}
+.text{
+    margin: 0 auto;
+    width: 700px;
+    /*border:2px solid red;*/
+    line-height: 500px;
+    font-size: 300px;
+    font-family: niconne;
+    font-weight: bold;
+    color: #FCEDD8;
+    text-shadow: 6px 5px 0 #EB452B,12px 10px 0 #EFA032,18px 15px 0 #46B59B ,24px 20px 0 #017E7F,30px 25px 0 #052939,36px 30px 0  #C11A2B,42px 35px 0  #C11A2B,48px 40px 0  #C11A2B,54px 45px 0  #C11A2B;
+
+}

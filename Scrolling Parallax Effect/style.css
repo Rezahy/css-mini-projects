@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-family: "Courier New", Courier, monospace;
+	line-height: 1.6;
+}
+.info {
+	padding: 5rem 10rem;
+	height: auto;
+	background: linear-gradient(135deg, #fff720 10%, #3cd500 100%);
+}
+.info h1 {
+	margin-bottom: 1rem;
+	font-size: 3rem;
+}
+.info p {
+	font-size: 1.5rem;
+}
+section {
+	height: calc(100vh);
+}
+
+.section-1 {
+	background: url("dog-1123016_1920.jpg") center/cover no-repeat fixed;
+}
+.section-2 {
+	background: url("hedgehog-child-1759027_1920.jpg") center/cover no-repeat
+		fixed;
+}
+.section-3 {
+	background: url("ireland-1985088_1920.jpg") center/cover no-repeat fixed;
+}
+.section-4 {
+	background: url("rabbit-1903016_1920.jpg") center/cover no-repeat fixed;
+}
+.section-5 {
+	background: url("pets-3715733_1920.jpg") center/cover no-repeat fixed;
+}

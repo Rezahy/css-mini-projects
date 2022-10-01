@@ -1,0 +1,73 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loading-effect {
+	list-style: none;
+	font-size: 5rem;
+}
+.loading-effect li {
+	display: inline-block;
+	letter-spacing: 2rem;
+	animation: loading 3s linear infinite;
+}
+
+@keyframes loading {
+	0% {
+		transform: translateX(-2rem);
+		letter-spacing: 2rem;
+		opacity: 0;
+		color: green;
+	}
+	20% {
+		color: blueviolet;
+		opacity: 1;
+	}
+	50% {
+		letter-spacing: -2rem;
+		color: yellowgreen;
+		opacity: 1;
+	}
+	100% {
+		transform: translateX(2rem);
+		letter-spacing: 2rem;
+		opacity: 0;
+		color: blue;
+	}
+}
+
+.loading-effect li:nth-child(1) {
+	animation-delay: 0s;
+}
+.loading-effect li:nth-child(2) {
+	animation-delay: 0.2s;
+}
+.loading-effect li:nth-child(3) {
+	animation-delay: 0.4s;
+}
+.loading-effect li:nth-child(4) {
+	animation-delay: 0.6s;
+}
+.loading-effect li:nth-child(5) {
+	animation-delay: 0.8s;
+}
+.loading-effect li:nth-child(6) {
+	animation-delay: 1s;
+}
+.loading-effect li:nth-child(7) {
+	animation-delay: 1.2s;
+}

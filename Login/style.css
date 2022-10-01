@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #01beff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: Helvetica, sans-serif;
+}
+
+input {
+	border: none;
+	background-color: transparent;
+	outline: none;
+	padding-left: 8px;
+}
+::placeholder {
+	color: #b4b4b4;
+}
+
+.login-form {
+	max-width: 300px;
+	width: 50vw;
+	min-width: 300px;
+	background-color: #fff;
+	padding: 50px 10px 10px 10px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+
+.form-title {
+	font-size: 1.4rem;
+	color: #b3b3b3;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.form-controll {
+	background-color: #f2f2f2;
+	padding: 10px 20px;
+	border-radius: 999px;
+	margin-bottom: 10px;
+}
+
+.form-controll-icon {
+	color: #989898;
+}
+.form-image {
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 70px;
+	height: 70px;
+	padding: 10px;
+	border: 1px solid #fff;
+	background-color: #e4e4e4;
+	border-radius: 50%;
+	color: #fff;
+	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+	font-size: 2.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	border-radius: 999px;
+	margin-bottom: 10px;
+	font-size: 1rem;
+}
+.btn-blue {
+	background-color: #00a3ee;
+	color: #fff;
+	transition: background-color 0.3s ease-in;
+}
+
+.btn-blue:hover {
+	background-color: #0497db;
+}
+.form-forgot-password {
+	text-decoration: none;
+	color: #a8a4a4;
+	font-size: 0.8rem;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+}

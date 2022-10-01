@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 65.5%;
+}
+ul {
+	list-style-type: none;
+	position: relative;
+	margin: 5rem;
+	height: auto;
+	width: 70rem;
+	text-align: center;
+	padding: 4rem;
+	overflow: hidden;
+	background-color: black;
+}
+
+ul::before {
+	content: "";
+	position: absolute;
+	width: 1rem;
+}
+ul li {
+	position: relative;
+	display: inline-block;
+}
+
+label {
+	position: relative;
+	background-color: red;
+}
+
+input[type="checkbox"] {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+.icon-container {
+	width: 10rem;
+	height: 10rem;
+	background: #777;
+	padding: 2.5rem;
+	margin-left: 4rem;
+	border: 0.3rem solid #000;
+	border-radius: 1rem;
+	transition: all 0.45s ease-in-out;
+}
+.icon-container i {
+	color: blue;
+	font-size: 4rem;
+	transition: all 0.45s ease-in-out;
+}
+
+ul li input:checked + .icon-container {
+	background: #333;
+	border: 0.3rem solid #fff;
+	transform: scale(1.1);
+	box-shadow: 0 0 1rem rgba(68, 243, 33, 0.5), 0 0 2rem rgba(68, 243, 33, 0.5),
+		0 0 3rem rgba(68, 243, 33, 0.5), inset 0 0 1rem rgba(68, 243, 33, 1);
+}
+
+ul li input:checked + .icon-container i {
+	color: #fff;
+	text-shadow: 0 0 1rem rgba(68, 243, 33, 0.5), 0 0 2rem rgba(68, 243, 33, 0.5);
+}
